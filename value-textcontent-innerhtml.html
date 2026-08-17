@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3 Ways Test</title>
+</head>
+<body>
+
+    <h2>3 Ways to Get Input Value</h2>
+    
+    <input type="text" id="testInput" placeholder="type anything">
+    <button id="testBtn">Check 3 Ways</button>
+
+    <script>
+        const input = document.getElementById('testInput');
+        const btn = document.getElementById('testBtn');
+
+        btn.addEventListener('click', function() {
+            let val = input.value;
+            let txt = input.textContent;
+            let html = input.innerHTML;
+
+            alert("1. value: " + val + "\n2. textContent: " + txt + "\n3. innerHTML: " + html);
+        });
+    </script>
+
+</body>
+</html>

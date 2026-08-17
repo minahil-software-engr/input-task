@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clear Input Challenge</title>
+</head>
+<body>
+
+    <h2>Clear Input After Alert</h2>
+    
+    <input type="text" id="testInput" placeholder="type anything">
+    <button id="testBtn">Check Value</button>
+
+    <script>
+        const input = document.getElementById('testInput');
+        const btn = document.getElementById('testBtn');
+
+        btn.addEventListener('click', function() {
+            let val = input.value;
+
+            alert("1. value: " + val);
+            input.value="";
+        });
+    </script>
+
+</body>
+</html>
