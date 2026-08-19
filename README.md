@@ -7,8 +7,7 @@ Is task mein input ki value read karne ke liye .value property use karni hai.
 
 2. HTML Structure:
 Sabse pehle HTML document create kiya gaya hai.
-DOCTYPE browser ko batata hai ke document HTML5 mein hai.
-<html> poore webpage ka root element hai.
+DOCTYPE browser ko batata hai ke document HTML5 mein hai.<html> poore webpage ka root element hai.
 <head> mein webpage ki basic information rakhi gayi hai.
 charset="UTF-8" characters ko properly display karne ke liye use hota hai.
 <title> browser ke tab ka naam set karta hai.
